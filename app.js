@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get('/',(req,res)=>{
-    return res.send('Hola desde el server')
+    return res.send('<h1>Listo te respondo</h1>')
 });
 
-app.listen(443,'localhost');
-console.log('serverIniciado');
+app.listen(3000);
+console.log('serverIniciado port:3000');
